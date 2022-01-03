@@ -5,8 +5,7 @@ weight = input("enter your weight in kg: ")
 
 #Write your code below this line 👇
 
-
-
+print(int(weight)/int(height)**int(height)
 
 
 
