@@ -10,4 +10,4 @@ new_weight = float(weight)
 
 result = new_weight / new_height ** 2
 
-print(int(result))
+print(round(result, 2))
