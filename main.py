@@ -5,11 +5,12 @@ weight = input("enter your weight in kg: ")
 
 #Write your code below this line 👇
 
-print(int(weight)/int(height)**int(height)
+new_height = float(height)
+new_weight = float(weight)
 
+print(type(new_height))
+print(type(new_weight))
 
+result = new_weight / new_height ** 2
 
-
-
-
-
+print(result)
